@@ -1,0 +1,21 @@
+vueapp/node_modules
+web/webpack-dist
+
+venv/
+# output of collectstatic
+backend/static/
+webpack-dist
+backend/appenv.yaml
+
+
+.DS_Store
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+*.log
