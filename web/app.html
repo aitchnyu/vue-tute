@@ -5,7 +5,15 @@
   <body>
     <h2>Welcome to Our Awesome Page</h2>
     <div id="app"></div>
-    <script type="text/javascript" src="webpack-dist/js/chunk-vendors.js"></script>
+    <div id="hw1"></div>
+    <div id="hw2"></div>
+    <div id="hw3"></div>
+    <script type="text/javascript" src="webpack-dist/js/vendors-app.js"></script>
     <script type="text/javascript" src="webpack-dist/js/app.js"></script>
+    <script>
+      helloworld('#hw1', 'World')
+      helloworld('#hw2', 'Foo')
+      helloworld('#hw3', 'Hiro', 'Konichiwa')
+    </script>
   </body>
 </html>
