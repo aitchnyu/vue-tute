@@ -3,11 +3,11 @@ const path = require('path')
 const pages = {
   app: {
     entry: './src/app.js',
-    template: 'public/index.html',
+    template: 'public/index.html'
   },
   dates: {
     entry: './src/dates.js',
-    template: 'public/index.html',
+    template: 'public/index.html'
   }
 }
 
